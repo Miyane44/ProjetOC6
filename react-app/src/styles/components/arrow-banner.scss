@@ -1,0 +1,19 @@
+.arrow-left,
+.arrow-right {
+    position: absolute;
+    font-size: 5vw;
+    top: 50%;
+    cursor: pointer;
+    color: #ffffffc5;
+    transition: 0.3s all;
+}
+
+.arrow-left {
+    left: 2vw;
+    transform: translateY(-50%);
+}
+
+.arrow-right {
+    right: 2vw;
+    transform: translateY(-50%);
+}

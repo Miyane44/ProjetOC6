@@ -1,0 +1,17 @@
+.rate {
+    color: #E3E3E3;
+    margin: 3px 0 3px 15px;
+    height: 100%;
+    font-size: 25px;
+}
+
+.colored {
+    color: #ff6060;
+}
+
+@media screen and (max-width: 768px) {
+    .rate {
+        font-size: 13px;
+        margin: 3px 7px 3px 0;
+    }
+}

@@ -1,0 +1,36 @@
+.logement-banner {
+    height: 415px;
+    position: relative;
+    .img-banner {
+        width: 100%;
+        height: 100%;
+        border-radius: 25px;
+        object-fit: cover;
+        display: none;
+    }
+    .img-banner.active-banner {
+        display: block;
+    }
+    .counter {
+        position: absolute;
+        left: 50%;
+        bottom: 5%;
+        color: white;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logement-banner {
+        height: 255px;
+    }
+
+    .logement-banner .img-banner {
+        border-radius: 10px;
+    }
+
+    .logement-banner .counter {
+        display: none;
+    }
+}
