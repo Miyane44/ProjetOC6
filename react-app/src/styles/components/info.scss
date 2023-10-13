@@ -1,0 +1,93 @@
+.info {
+    list-style: none;
+}
+
+.title-info,
+.title-info.drop {
+    height: 52px;
+    background: #ff6060;
+    margin-top: 20px;
+    padding: 5px 20px 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.about-info,
+.about-info.drop {
+    background: #F6F6F6;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: #ff6060;
+    cursor: pointer;
+    display: flex;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.description-info,
+.description-info.drop {
+    background: #F6F6F6;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: #ff6060;
+    cursor: pointer;
+    display: flex;
+    font-weight: 400;
+    font-size: 18px;
+    height: 150px;
+}
+
+.open {
+    overflow: hidden;
+    transition: height 0.5s;
+}
+
+.closed {
+    overflow: hidden;
+    transition: height 0.5s;
+}
+
+.equipment-info {
+    background: #F6F6F6;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: #ff6060;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex-wrap: wrap;
+    font-weight: 400;
+    font-size: 18px;
+    height: 150px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .title-info {
+        font-size: 13px;
+        margin-top: 15px;
+    }
+
+    .description-info,
+    .equipment-info,
+    .about-info {
+        font-size: 12px;
+    }
+
+    .title-info,
+    .title-info.drop {
+        height: 30px;
+    }
+
+    .equipment-info {
+        justify-content: flex-start;
+        gap: 0;
+    }
+}
