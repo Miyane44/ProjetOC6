@@ -1,0 +1,29 @@
+.gallery {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+    background-color: #F6F6F6;
+    border-radius: 25px;
+    box-sizing: border-box;
+    margin: 40px 100px;
+    padding: 70px 75px;
+
+    @media screen and (max-width:1024px) {
+        grid-template-columns: 1fr 1fr;
+        padding: 20px;
+        grid-gap: 20px;
+    }
+    
+    @media screen and (max-width:768px) {
+        margin: 20px 20px;
+        grid-template-columns: 1fr;
+        padding: 0;
+        background-color: #FFFFFF;
+        grid-gap: 20px;
+    }
+}
+
+
+
+

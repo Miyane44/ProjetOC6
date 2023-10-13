@@ -1,0 +1,41 @@
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 100px 30px;
+}
+
+.nav-links {
+    display: flex;
+    font-size: 24px;
+    font-weight: 500;
+    list-style-type: none;
+    gap: 57px;
+}
+
+.nav-link {
+    outline: none;
+    text-decoration: none;
+    color: #FF6060;
+}
+
+.nav-active {
+    text-decoration: underline;
+    color: #FF6060;
+}
+
+@media screen and (max-width:768px) {
+    .page-header {
+        margin: 20px 20px 20px;
+    }
+    
+    .header-logo {
+        width: 145px;
+    }
+    
+    .nav-links {
+        font-size: 12px;
+        text-transform: uppercase;
+        gap: 25px;
+    }
+}
