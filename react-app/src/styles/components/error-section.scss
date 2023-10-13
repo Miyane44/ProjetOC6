@@ -1,0 +1,38 @@
+.error-section {
+    color: #ff6060;
+    text-align: center;
+}
+
+.error-code {
+    font-size: 288px;
+    font-weight: 700;
+    padding-bottom: 139px;
+}
+
+.error-message {
+    font-size: 36px;
+    font-weight: 500;
+    padding-bottom: 139px;
+}
+
+.error-link {
+    font-size: 18px;
+    font-weight: 500;
+    a:visited {
+        color: #ff6060;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .error-code {
+        font-size: 96px;
+    }
+
+    .error-message {
+        font-size: 18px;
+    }
+
+    .error-link {
+        font-size: 14px;
+    }
+}
