@@ -7,12 +7,20 @@
     font-size: 288px;
     font-weight: 700;
     padding-bottom: 139px;
+
+    @media screen and (max-width: 768px) {
+        font-size: 96px;
+    }
 }
 
 .error-message {
     font-size: 36px;
     font-weight: 500;
     padding-bottom: 139px;
+
+    @media screen and (max-width: 768px) {
+        font-size: 18px;
+    }
 }
 
 .error-link {
@@ -21,18 +29,8 @@
     a:visited {
         color: #ff6060;
     }
-}
 
-@media screen and (max-width: 768px) {
-    .error-code {
-        font-size: 96px;
-    }
-
-    .error-message {
-        font-size: 18px;
-    }
-
-    .error-link {
+    @media screen and (max-width: 768px) {
         font-size: 14px;
     }
 }

@@ -1,9 +1,7 @@
 .error-main {
     min-height: calc(100vh - 361px);
-}
 
-@media screen and (max-width: 768px) {
-    .error-main {
+    @media screen and (max-width: 768px) {
         min-height: calc(100vh - 299.72px);
     }
 }

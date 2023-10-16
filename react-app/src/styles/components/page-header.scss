@@ -3,6 +3,10 @@
     justify-content: space-between;
     align-items: center;
     margin: 50px 100px 30px;
+
+    @media screen and (max-width:768px) {
+        margin: 20px 20px 20px;
+    }
 }
 
 .nav-links {
@@ -11,6 +15,12 @@
     font-weight: 500;
     list-style-type: none;
     gap: 57px;
+
+    @media screen and (max-width:768px) {
+        font-size: 12px;
+        text-transform: uppercase;
+        gap: 25px;
+    }
 }
 
 .nav-link {
@@ -24,18 +34,8 @@
     color: #FF6060;
 }
 
-@media screen and (max-width:768px) {
-    .page-header {
-        margin: 20px 20px 20px;
-    }
-    
+@media screen and (max-width:768px) {    
     .header-logo {
         width: 145px;
-    }
-    
-    .nav-links {
-        font-size: 12px;
-        text-transform: uppercase;
-        gap: 25px;
     }
 }

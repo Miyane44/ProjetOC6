@@ -1,12 +1,21 @@
 .logement-banner {
     height: 415px;
     position: relative;
+
+    @media screen and (max-width: 768px) {
+        height: 255px;
+    }
+
     .img-banner {
         width: 100%;
         height: 100%;
         border-radius: 25px;
         object-fit: cover;
         display: none;
+
+        @media screen and (max-width: 768px) {
+            border-radius: 10px;
+        }
     }
     .img-banner.active-banner {
         display: block;
@@ -18,19 +27,9 @@
         color: white;
         font-size: 18px;
         font-weight: 500;
-    }
-}
 
-@media screen and (max-width: 768px) {
-    .logement-banner {
-        height: 255px;
-    }
-
-    .logement-banner .img-banner {
-        border-radius: 10px;
-    }
-
-    .logement-banner .counter {
-        display: none;
+        @media screen and (max-width: 768px) {
+            display: none;
+        }
     }
 }

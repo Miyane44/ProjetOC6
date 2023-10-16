@@ -6,19 +6,17 @@
 .logement-title {
     font-size: 36px;
     margin-bottom: 10px;
+
+    @media screen and (max-width: 768px) {
+        font-size: 18px;
+        font-weight: 500;
+    }
 }
 
 .logement-location {
     font-size: 18px;
-}
 
-@media screen and (max-width: 768px) {
-    .logement-title {
-        font-size: 18px;
-        font-weight: 500;
-    }
-
-    .logement-location {
+    @media screen and (max-width: 768px) {
         font-size: 14px;
     }
 }

@@ -3,6 +3,10 @@
     justify-content: flex-end;
     align-items: center;
     margin-bottom: 20px;
+
+    @media screen and (max-width: 768px) {
+        margin-bottom: 0;
+    }
 }
 
 .host-name {
@@ -12,24 +16,18 @@
     text-align: right;
     margin: 0 10px;
     width: 90px;
+
+    @media screen and (max-width: 768px) {
+        font-size: 12px;
+        width: 50px;
+    }
 }
 
 .host-picture {
     border-radius: 50%;
     width: 64px;
-}
 
-@media screen and (max-width: 768px) {
-    .logement-host {
-        margin-bottom: 0;
-    }
-
-    .host-name {
-        font-size: 12px;
-        width: 50px;
-    }
-
-    .host-picture {
+    @media screen and (max-width: 768px) {
         width: 32px;
     }
 }
