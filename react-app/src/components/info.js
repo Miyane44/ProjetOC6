@@ -5,7 +5,7 @@ import ArrowCollapse from './arrow-collapse';
 import '../styles/components/info.scss';
 
 function Info(props) {
-  const [isOpen, setIsOpen] = useState(props.openByDefault, false);
+  const [isOpen, setIsOpen] = useState(props.openByDefault);
   const handleOpen = () => {
     setIsOpen(!isOpen);
   };
